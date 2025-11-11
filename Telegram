@@ -1,0 +1,11 @@
+data-bridge-blueprint/
+├── src/
+│   ├── __init__.py
+│   ├── extract.py     # Source extraction logic
+│   ├── transform.py   # Data processing
+│   └── load.py        # Destination loading
+├── data/
+│   └── sample_input.csv  # Example input file
+├── main.py            # Entry point to run the bridge
+├── requirements.txt   # Dependencies
+└── README.md          # Instructions
